@@ -48,12 +48,13 @@ This repository contains a complete workflow for analyzing 10x Genomics Xenium s
 ### Prerequisites
 
 - Docker and Docker Compose
+- Data(https://www.10xgenomics.com/datasets/preview-data-ffpe-human-lung-cancer-with-xenium-multimodal-cell-segmentation-1-standard)
 
 ### Quick Start
 
 1. **Launch containers:**
    ```bash
-   docker-compose up -d
+   docker-compose up python-env
    ```
 
 2. **Access Jupyter:**
