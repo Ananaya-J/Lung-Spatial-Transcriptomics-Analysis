@@ -23,8 +23,7 @@ This repository contains a complete workflow for analyzing 10x Genomics Xenium s
 ├── scripts/
 │   ├── xenium_analysis.py      # Main analysis script
 │   └── utils/                  # Utility functions
-├── docker/
-│   └── Dockerfile.squidpy      # Python environment Dockerfile
+├── Dockerfile.squidpy      # Python environment Dockerfile
 ├── docker-compose.yml          # Docker Compose configuration
 ├── reports/                    # Analysis reports
 ```
