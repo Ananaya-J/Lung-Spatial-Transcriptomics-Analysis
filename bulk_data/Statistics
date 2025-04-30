@@ -1,0 +1,9 @@
+AnnData shape after loading: (162254, 377)
+cell_meta shape: (162254, 10)
+Number of matching barcodes: 162254
+Number of cells with all-NaN metadata: 0
+AnnData shape before filtering: (162254, 377)
+AnnData shape after filtering: (161894, 377)
+Before normalization: min = 0.0 max = 87.0 NaNs: 0
+After normalization: min = 0.0 max = 46.0 NaNs: 0
+After log1p: min = 0.0 max = 3.8501477 NaNs: 0
