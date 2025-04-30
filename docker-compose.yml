@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  python_env:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile.squidpy
+    volumes:
+      - ./scripts:/home/jovyan/scripts
+      - ./data:/home/jovyan/data
+      - ./reports:/home/jovyan/reports
+    ports:
+      - "8888:8888"
